@@ -1,0 +1,37 @@
+div{
+    flex-wrap: wrap;
+}
+.right-bubble{
+    text-align: right;
+    background-color: pink;
+    border-radius: 20px;
+    border:solid 1px white;
+    width:45%;
+    padding:8px;
+    margin-left:55%;
+    justify-content: flex-end;
+}
+.msg-bubble{
+    display:flex;
+}
+.right-bubble > p{
+    margin:0px;
+    margin-right:5px;
+}
+.msg-info-time{
+    margin-right:5px;
+}
+.msg-info{
+    background-color: black;
+    display:flex;
+}
+.left-bubble{
+    background-color: skyblue;
+    text-align:left;
+    border-radius: 20px;
+    border:solid 1px white;
+    width:45%;
+    padding:8px;
+    margin-right:55%;
+    justify-content: flex-start;
+}
